@@ -14,7 +14,7 @@ TRIGGERS = os.environ.get("TRIGGERS", "/ !").split(" ")
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '6004434070:AAFPRPWHTA_dVrlQnr27jajqkjvYReHtQGw') #BOT Token Add
 API_ID = int(os.environ.get('API_ID', 20738903)) #Telgram Api id
 APP_HASH = os.environ.get('APP_HASH', 'f14bc2de0f71c54d385ce25948058e52')# Telgram App hash  
-OWNER_ID = int(os.environ.get('OWNER_ID', 800209209 5180429599))
+OWNER_ID = int(os.environ.get('OWNER_ID', 800209209,5180429599))
 MONGO_DB = os.environ.get("MONGO_DB", 'mongodb+srv://rjguruzaheer:alfeaon@cluster0.tu1elmc.mongodb.net/?retryWrites=true&w=majority') #MONGO DB FOR ANIME DATA
 FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -1001534093270)
 BOT_NAME = os.environ.get('BOT_NAME', 'Alfeaon')
